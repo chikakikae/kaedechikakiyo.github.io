@@ -1,0 +1,123 @@
+<!DOCTYPE html> 
+<html>
+  <!-- head=ブラウザには表示されない・ページに関する設定情報 -->
+  <head> 
+    <!-- 文字コード設定・文字化けを防ぐため -->
+    <meta charset="UTF-8" />
+
+    <!-- いろんなデバイス幅で表示崩れが起きないようにするやつ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <meta 
+    name="description"
+      content="ポートフォリオサイト" />
+
+    <!-- ページタイトル・ブラウザのタブ上に表示 -->
+    <title>kaedechikakiyo</title>
+    <!-- css読み込み・stylesheet=読み込む宣言・その後""内にcssのファイル名を記載 -->
+    <link rel="stylesheet" href="./kaede_site_work_machi.css" />
+
+   <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+     crossorigin="anonymous"
+     ></script>
+
+  </head>
+
+
+  <!-- body=実際に表示したい内容 -->
+  <body> 
+
+    <header> 
+      <span class="under"><a href="index.html"style="text-decoration:none; color:#000000;">kaedechikakiyo</span>
+      <!--spanはグループ化-->      
+      
+      <ul class="header-nav-list"> <!-- ヘッダーのリスト-->
+        <li>
+          <a href="about.html">about</a>
+        </li>
+        <li>
+          <a href="index.html">work</a> <!--work＆TOP-->
+        </li>
+        <li>
+          <a href="mailto:kaedechikakiyo@gmail.com">contact</a> <!--メールソフトへ-->         
+        </li>
+        <li>
+          <a href="https://www.instagram.com/_chika_drawing/"><img src="insta.png" alt="インスタへ"></a> <!--インスタへ-->
+        </li>
+      </ul>
+      
+      <!-- スマホ用 -->
+      <div class="header-sp-icon-wrap"> <!--メニューアイコンを包む-->
+        <img id="mypic" onclick="slideshow()" s src="images/menu-icon.png" alt="メニューアイコン">
+      </div>
+      
+
+      <div class="header-sp-nav">
+        <ul class="header-sp-nav-list">
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="index.html">work</a> <!--work＆TOP-->
+          </li>
+          <li>
+            <a href="mailto:kaedechikakiyo@gmail.com">contact</a> <!--メールソフトへ-->         
+          </li>
+          <li>
+            <a href="https://www.instagram.com/_chika_drawing/"><img src="insta.png" alt="インスタへ"></a> <!--インスタへ-->
+          </li>
+        </ul>
+      </div>
+      
+      <!-- ここまで -->
+      
+    </header>
+
+
+   <main> <!-- サイトの中心となる内容 -->
+    
+    <span class="setumei">
+    <h1>高知県 まちまるごと植物園</h1>
+    <h2>concept</h2> <h3>&nbsp;植物を大切に育てる心</h3>
+      <div class="about">
+        <p>まちまるごと植物園とは、植物学の父・牧野富太郎が生まれ育った高知県佐川町という場所で、まち全体で植物に寄り添い町の魅力を発信しているまちづくり活動。私の作成したロゴマークは、プレートに印刷され町内の学校や公民館、家庭の花壇などに設置されるほか、さまざまな形で佐川町のPRに用いられています。</br>
+      </br>
+      April 2019</br>Logo design | ロゴマーク一般公募 最優秀賞</p></div>
+      </span>
+
+
+      <div class="work">
+        <img src="images/machi_1.jpg" alt="作品01"></div>
+      <div class="work">
+        <img src="images/machi_2.jpg" alt="作品01"></div>
+      <div class="work">
+        <img src="images/machi_3.jpg" alt="作品01"></div>
+      <div class="work">
+        <img src="images/machi_6.jpg" alt="作品01"></div>
+
+
+     </main>
+
+
+     <footer>
+
+      <span class="prev"><a href="michinomichi.html"style="text-decoration:none; color:#000000;">‹ prev</a></span>
+      <span class="next"><a href="comedasweets.html"style="text-decoration:none; color:#000000;">next ›</a></span>
+
+      <!--<a class="scroll-top" href="#">
+        <img src="img/up.png" />
+        <p>TOPへ戻る</p>
+      </a>-->
+      <p class="copyright">©︎Kaede Chikakiyo 2020</p>
+    </footer>
+
+  </body>
+
+  <script src="script.js"></script>
+  
+  
+
+</html>

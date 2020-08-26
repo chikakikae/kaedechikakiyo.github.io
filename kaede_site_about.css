@@ -189,7 +189,7 @@ main{
 
 h1 {
     font-size: 18px;
-    font-family: "Shuei"; 
+    font-family: "AUT-60"; 
     position:absolute;
     top: 30vh;
     left: 25vw;
@@ -201,7 +201,7 @@ h1 {
   
 .about{
     font-size: 12px;
-    font-family: "Shuei"; 
+    font-family: "AUT-60"; 
     position:absolute;
     top: 39vh;
     left: 25vw;
@@ -266,6 +266,10 @@ h1 {
   animation-name: fadein;
   animation-duration: 3s;
   }
+_::-webkit-full-page-media, _:future, :root 
+.profile {
+  bottom:5vh;
+}
 
 .profile img{
   width: 100%;
@@ -309,7 +313,7 @@ footer {
   
     text-decoration: none;
     color: gray;
-    font-size: 8px;
+    font-size: 10px;
     font-family: "AUT-60";
     letter-spacing: 0.08em;
   }

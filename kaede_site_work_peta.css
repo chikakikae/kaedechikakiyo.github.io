@@ -206,7 +206,7 @@ main{
     align-items: center;
     margin:0 13vw;
     justify-content:space-between;
-    margin-top:71vh;
+    margin-top:74vh;
     
   }
 }
@@ -288,7 +288,7 @@ h2 {
     font-size: 12px;
     font-family: "AUT-90"; 
     position:absolute;
-    top: 34vh;
+    top: 35.2vh;
     left: 14vw;
     text-decoration: none;
     color: #323232;
@@ -301,7 +301,7 @@ h2 {
     font-size: 13px;
     font-family: "AUT-60"; 
     position:absolute;
-    top: 33.5vh;
+    top: 34.7vh;
     left: 29.5vw;
     text-decoration: none;
     color: #323232;

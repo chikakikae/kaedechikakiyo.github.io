@@ -372,17 +372,16 @@ h2 {
   }
 }
 
-
-.scrolly img{
-  width:69vw;
-  object-fit:cover /*ボックスに合わせてリサイズ*/
-}
-
 .scrolly{
   margin-left:2vw;
   width:69vw;
   height:680px;
   overflow-y:scroll;
+}
+
+.scrolly img{
+  width:69vw;
+  object-fit:cover /*ボックスに合わせてリサイズ*/
 }
 
 @media screen and (max-width: 767px) {

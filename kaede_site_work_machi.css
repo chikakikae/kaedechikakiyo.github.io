@@ -197,7 +197,7 @@ main{
   align-items: center;
   margin:0 16vw;
   justify-content:space-between;
-  margin-top:40vh;
+  margin-top:47vh;
   
 }
 
@@ -467,7 +467,7 @@ footer {
   
     text-decoration: none;
     color: gray;
-    font-size: 8px;
+    font-size: 10px;
     font-family: "AUT-60";
     letter-spacing: 0.08em;
   }

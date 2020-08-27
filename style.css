@@ -39,6 +39,9 @@
     font-family:"DIN";
     
   }
+
+
+  
     
   .header-nav-list {
     position:fixed;
@@ -182,6 +185,14 @@ body {
   background-size:cover;
 }
 
+/*iPad用 画面の幅が480px以下の時は下のコードが反映される*/
+@media screen and (min-width: 768px) and (max-width: 1024px){ 
+  body {
+    background-image:url("images/back2.jpg");
+    background-size:cover;
+  }
+}
+
 
 
 main{
@@ -193,6 +204,8 @@ main{
   animation-name: fadein;
   animation-duration: 2s;
 }
+
+
 
 @media screen and (max-width: 767px) {
   main{
@@ -261,11 +274,37 @@ main{
   letter-spacing: 0.08em;
 }
 
+  /*iPad用 画面の幅が480px以下の時は下のコードが反映される*/
+  @media screen and (min-width: 768px) and (max-width: 1024px){
+    
+  .hover-caption{
+    margin-top:100px;
+  }
+
+  .hover-caption h2{
+    font-size: 22px;
+    font-family: "Shuei";
+    letter-spacing: 0.05em;
+    line-height: 13px;
+  }
+  
+  .hover-caption p{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Shuei";
+    color: lightgray;
+    letter-spacing: 0.05em;
+    padding-top: 8px;
+    letter-spacing: 0.08em;
+  }
+} 
+
+
 
 @media screen and (max-width: 767px) {
   .work {
     width: 34.5vw;
-    height:12vh;
+    height:83px;
     margin-bottom:4vh;
     margin-left:0.5vh;
     z-index: inherit 2;

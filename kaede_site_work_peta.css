@@ -179,21 +179,13 @@ header {
 
 
 body {
-  background-image:url("back2.jpg");
+  background-image:url("images/back2.jpg");
   background-size: cover;
-}
-
-@media screen and (max-width: 767px) {
-  body {
-    background-image:url("back2.jpg");
-  background-size: cover;
-  }
 }
 
 main{
   display:flex;
   flex-direction: column;
-  align-items: center;
   margin:0 15vw;
   justify-content:space-between;
   margin-top:43vh;
@@ -203,7 +195,6 @@ main{
   main{
     display:flex;
     flex-direction: column;
-    align-items: center;
     margin:0 13vw;
     justify-content:space-between;
     margin-top:74vh;
@@ -329,7 +320,6 @@ h2 {
 
 .work {
   width: 69vw;
-  margin-left:2vw;
   margin-bottom:0.5vh;
   /*padding:0 10px 50px 0;要素の内側の余白・上右下左*/
   box-sizing:border-box;
@@ -344,11 +334,12 @@ h2 {
 }
 
 .caption1{
-    font-size: 12px;
+    font-size: 14px;
     font-family: "AUT-90";
     font-weight: 600;
     padding-top: 8px;
     padding-bottom: 10px;
+    margin-left: 35px;
     line-height:18px;
     letter-spacing: 0.3px;
     animation-name: fadein;
@@ -356,10 +347,10 @@ h2 {
 }
 
 .caption{
-    font-size: 11px;
+    font-size: 12px;
     font-family: "AUT-60";
-    padding:0 30px 20px 55px;
-    line-height:18px;
+    padding:5px 80px 20px 37px;
+    line-height:22px;
     animation-name: fadein;
     animation-duration: 2s;
  }
@@ -368,7 +359,6 @@ h2 {
 @media screen and (max-width: 767px) {
   .work {
     width: 75vw;
-    margin-left:1vw;
     /*padding:0 10px 50px 0;要素の内側の余白・上右下左*/
     box-sizing:border-box;
 
@@ -388,9 +378,9 @@ h2 {
     font-size: 12px;
     font-family: "AUT-90";
     font-weight: 600;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding:8px 0;
     line-height:18px;
+    margin-left: 5px;  
     letter-spacing: 0.8px;        
     animation-name: fadein;
     animation-duration: 2s;
@@ -400,8 +390,8 @@ h2 {
     font-size: 10px;
     font-family: "AUT-60";
     padding: 0 0 20px;
-    margin-left:5px;
-    line-height:18px;        
+    line-height:18px;  
+    margin-left: 5px;      
     animation-name: fadein;
     animation-duration: 2s;
  }

@@ -177,7 +177,7 @@ header {
 }
 
 body {
-  background-image:url("back2.jpg");
+  background-image:url("images/back2.jpg");
   background-size: cover;
 }
 
@@ -188,6 +188,7 @@ main{
     justify-content:space-between;
     margin-top:30vh;
   }
+
 
 @media screen and (max-width: 767px) {
   main{

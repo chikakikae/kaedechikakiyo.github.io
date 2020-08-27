@@ -178,17 +178,9 @@ header {
 
 
 body {
-  background-image:url("back2.jpg");
+  background-image:url("images/back2.jpg");
   background-size: cover;
 }
-
-@media screen and (max-width: 767px) {
-  body {
-    background-image:url("back2.jpg");
-  background-size: cover;
-  }
-}
-
 main{
   display:flex;
   flex-direction: column;
@@ -205,7 +197,7 @@ main{
     align-items: center;
     margin:0 16vw;
     justify-content:space-between;
-    margin-top:52vh;
+    margin-top:59vh;
   }
 }
 
@@ -385,7 +377,7 @@ h2 {
 .scrolly{
   margin-left:2vw;
   width:69vw;
-  height:680px;
+  height:770px;
   overflow-y:scroll;
 }
 

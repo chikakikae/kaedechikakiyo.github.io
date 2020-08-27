@@ -180,13 +180,14 @@ header {
 
 
 body {
-  background-image:url("back2.jpg");
+  background-image:url("images/back2.jpg");
   background-size: cover;
 }
 
+
 @media screen and (max-width: 767px) {
   body {
-    background-image:url("back2.jpg");
+    background-image:url("images/back3.jpg");
   background-size: cover;
   }
 }
@@ -197,7 +198,7 @@ main{
   align-items: center;
   margin:0 16vw;
   justify-content:space-between;
-  margin-top:42vh;
+  margin-top:45vh;
 }
 
 @media screen and (max-width: 767px) {
@@ -207,7 +208,7 @@ main{
     align-items: center;
     margin:0 16vw;
     justify-content:space-between;
-    margin-top:58vh;
+    margin-top:61vh;
   }
 }
 
@@ -243,7 +244,7 @@ h2 {
   }
 
   h3 {
-    font-size: 15px;
+    font-size: 18px;
     font-family: "AUT-60"; 
     font-weight: 600;
     position:absolute;
@@ -251,13 +252,15 @@ h2 {
     left: 21vw;
     text-decoration: none;
     color: #323232;
+
+   line-height:22px;
     letter-spacing: 0.05em;
     animation-name: fadein;
     animation-duration: 2s; 
     }
 
  .about{
-   font-size: 12px;
+   font-size: 13px;
    font-family: "AUT-60"; 
    position:absolute;
    top: 46vh;
@@ -330,10 +333,9 @@ h2 {
 
 .work {
   width: 69vw;
-  margin-left:2vw;
-  margin-bottom:0.5vh;
   /*padding:0 10px 50px 0;要素の内側の余白・上右下左*/
   box-sizing:border-box;
+  margin-bottom: 7px;
   animation-name: fadein;
   animation-duration: 2s; 
 }
@@ -344,14 +346,27 @@ h2 {
   object-fit:cover /*ボックスに合わせてリサイズ*/
 }
 
+.caption{
+  color:gray;
+  font-size: 15px;
+  font-family: "AUT-60";
+  line-height:22px;
+
+  margin-left: 20px;
+  letter-spacing: 2px;
+  padding-top:15px;
+  padding-bottom: 25px;
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+
+
 @media screen and (max-width: 767px) {
   .work {
     width: 75vw;
-    margin-left:1vw;
     /*padding:0 10px 50px 0;要素の内側の余白・上右下左*/
     box-sizing:border-box;
-
-        
+    margin-bottom: 5px;
     animation-name: fadein;
     animation-duration: 2s;
  }
@@ -361,6 +376,19 @@ h2 {
     height:100%;
     object-fit:cover /*ボックスに合わせてリサイズ*/
   }
+
+  .caption{
+    font-size: 11px;
+    font-family: "AUT-60";
+    margin-left: 11px;
+    padding-top:2px;
+    padding-bottom:10px;
+    letter-spacing: 1px;
+    line-height:22px;
+    animation-name: fadein;
+    animation-duration: 2s;
+  }
+  
 }
 
 .scrolly img{

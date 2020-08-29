@@ -180,13 +180,13 @@ header {
 
 
 body {
-  background-image:url("back2.jpg");
+  background-image:url("images/back2.jpg");
   background-size: cover;
 }
 
 @media screen and (max-width: 767px) {
   body {
-    background-image:url("back2.jpg");
+    background-image:url("images/back3.jpg");
   background-size: cover;
   }
 }
@@ -197,7 +197,7 @@ main{
   align-items: center;
   margin:0 16vw;
   justify-content:space-between;
-  margin-top:47vh;
+  margin-top:50vh;
   
 }
 
@@ -208,7 +208,8 @@ main{
     align-items: center;
     margin:0 16vw;
     justify-content:space-between;
-    margin-top:53vh;
+    margin-top:65vh;
+    margin-bottom: 50px;
   }
 }
 
@@ -365,14 +366,34 @@ h2 {
   }
 }
 
-.url{
-    text-decoration:none;
-    font-size: 16px;
-    font-family: "AUT-60"; 
-    animation-name: fadein;
-    animation-duration: 2s; 
-    letter-spacing: 1px;
-    margin-top:60px;
+main a{
+  margin-top:30px;
+  width: 220px;
+  height: 40px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "AUT-90";
+  color:#231300;
+  border: solid 1px #231300; /*一重の線*/
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  justify-content: center; /*この３列で上下中央ぞろえ*/
+  float: right;
+  padding:0 10px;
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+
+@media screen and (max-width: 767px) {
+  main a{
+    margin-top:30px;
+    width: 180px;
+    height: 30px;
+    font-size: 10px;
+  }
 }
 
 footer {

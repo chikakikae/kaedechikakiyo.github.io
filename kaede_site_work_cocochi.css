@@ -197,7 +197,7 @@ main{
   align-items: center;
   margin:0 16vw;
   justify-content:space-between;
-  margin-top:50vh;
+  margin-top:54vh;
   
 }
 
@@ -208,7 +208,7 @@ main{
     align-items: center;
     margin:0 16vw;
     justify-content:space-between;
-    margin-top:65vh;
+    margin-top:69vh;
     margin-bottom: 50px;
   }
 }
@@ -334,7 +334,7 @@ h2 {
 .work {
   width: 69vw;
   margin-left:2vw;
-  margin-bottom:0.5vh;
+  margin-bottom:3vh;
   /*padding:0 10px 50px 0;要素の内側の余白・上右下左*/
   box-sizing:border-box;
   animation-name: fadein;
@@ -353,7 +353,7 @@ h2 {
     margin-left:1vw;
     /*padding:0 10px 50px 0;要素の内側の余白・上右下左*/
     box-sizing:border-box;
-
+    margin-bottom:2vh;
         
     animation-name: fadein;
     animation-duration: 2s;
@@ -371,11 +371,10 @@ main a{
   width: 220px;
   height: 40px;
   font-size: 13px;
-  font-weight: 600;
   text-decoration: none;
   font-family: "AUT-90";
   color:#231300;
-  border: solid 1px #231300; /*一重の線*/
+  border: solid 0.5px #231300; /*一重の線*/
 
   display: flex;
   align-items: center;
@@ -390,7 +389,7 @@ main a{
 @media screen and (max-width: 767px) {
   main a{
     margin-top:30px;
-    width: 180px;
+    width: 190px;
     height: 30px;
     font-size: 10px;
   }

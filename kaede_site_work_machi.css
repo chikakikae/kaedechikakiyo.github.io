@@ -180,7 +180,7 @@ header {
 
 
 body {
-  background-image:url("images/back2.jpg");
+  background-image:url("images/back5.jpg");
   background-size: cover;
 }
 
@@ -191,7 +191,7 @@ main{
   align-items: center;
   margin:0 16vw;
   justify-content:space-between;
-  margin-top:47vh;
+  margin-top:39vh;
   
 }
 

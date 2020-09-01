@@ -177,7 +177,7 @@ header {
 }
 
 body {
-  background-image:url("images/back1.jpg");
+  background-image:url("images/back2.jpg");
   background-size: cover;
 }
 
@@ -190,6 +190,11 @@ main{
   }
 
 @media screen and (max-width: 767px) {
+  body {
+    background-image:url("images/back1.jpg");
+    background-size: cover;
+  }
+
   main{
     display:flex;
     flex-direction: column;

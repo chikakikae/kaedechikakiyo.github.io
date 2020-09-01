@@ -190,11 +190,17 @@ main{
   align-items: center;
   margin:0 16vw;
   justify-content:space-between;
-  margin-top:47vh;
+  margin-top:44vh;
   
 }
 
 @media screen and (max-width: 767px) {
+
+  body {
+    background-image:url("images/back2.jpg");
+    background-size: cover;
+  }
+
   main{
     display:flex;
     flex-direction: column;

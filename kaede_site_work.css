@@ -457,7 +457,7 @@ h2 {
     display: inline-block;
     z-index: 20;
     position: relative;
-    width: 85%;
+    width: 95%;
     max-width: 600px;
     padding:0;
     border-radius: 2px;
@@ -468,7 +468,7 @@ h2 {
   .modal-close img{
     width: 20px;
     margin-top:0;
-    margin-right:20px;
+    margin-right:0;
    }
 
   .work {

@@ -264,8 +264,8 @@ h1 {
   }
 
 .work {
-  width: 34vw;
-  margin-bottom:1vh;
+  width: 34.6vw;
+  margin-bottom:1.5vh;
   /*padding:0 10px 50px 0;要素の内側の余白・上右下左*/
   box-sizing:border-box;
   animation-name: fadein;

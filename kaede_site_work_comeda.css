@@ -456,6 +456,11 @@ h2 {
     box-shadow: 0 0 30px rgba(0, 0, 0, .6);
     vertical-align: middle
   }
+
+  .modal-wrapper .modal-window .modal-content {
+    max-height: 55vh;
+    overflow-y: auto;
+  }
   
   .modal-close img{
     width: 20px;

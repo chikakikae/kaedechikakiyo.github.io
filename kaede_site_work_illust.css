@@ -223,12 +223,11 @@ h1 {
   top: 40vh;
   left: 16.5vw;
   
-  right: 15vw;
   text-decoration: none;
   color: #323232;
   letter-spacing: 0.07em;
   line-height:22px;
-  right: 30vw;
+  right: 31vw;
   animation-name: fadein;
   animation-duration: 2s; 
   }

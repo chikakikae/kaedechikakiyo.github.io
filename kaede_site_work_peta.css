@@ -188,7 +188,7 @@ main{
   flex-direction: column;
   margin:0 15vw;
   justify-content:space-between;
-  margin-top:43vh;
+  margin-top:53vh;
 }
 
 @media screen and (max-width: 767px) {
@@ -203,7 +203,7 @@ main{
     flex-direction: column;
     margin:0 13vw;
     justify-content:space-between;
-    margin-top:77vh;
+    margin-top:78vh;
     
   }
 }
@@ -253,16 +253,16 @@ h2 {
     }
 
  .about{
-   font-size: 12px;
+   font-size: 13px;
    font-family: "AUT-60"; 
    position:absolute;
    top: 46vh;
    left: 16.5vw;
-   right: 25vw;
+   right: 30vw;
    text-decoration: none;
    color: #323232;
    letter-spacing: 0.07em;
-   line-height:18px;
+   line-height:22px;
    animation-name: fadein;
    animation-duration: 2s;
   }
@@ -309,7 +309,7 @@ h2 {
   
     
     .about{
-    font-size: 11px;
+    font-size: 12px;
     font-family: "AUT-60"; 
     position:absolute;
     top: 42vh;
@@ -345,7 +345,7 @@ h2 {
     font-weight: 600;
     padding-top: 8px;
     padding-bottom: 10px;
-    margin-left: 35px;
+    margin-left: 17px;
     line-height:18px;
     letter-spacing: 0.3px;
     animation-name: fadein;
@@ -355,7 +355,7 @@ h2 {
 .caption{
     font-size: 12px;
     font-family: "AUT-60";
-    padding:5px 80px 20px 37px;
+    padding:5px 200px 20px 17px;
     line-height:22px;
     animation-name: fadein;
     animation-duration: 2s;

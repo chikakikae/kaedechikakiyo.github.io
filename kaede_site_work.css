@@ -220,6 +220,7 @@ main{
     margin:0 16vw;
     justify-content:space-between;
     margin-top:59vh;
+    margin-bottom:15px;
   }
 }
 
@@ -361,6 +362,17 @@ h2 {
   object-fit:cover /*ボックスに合わせてリサイズ*/
 }
 
+.caption{
+  font-size: 14px;
+  font-family: "AUT-90";
+}
+
+.icon img{
+  width: 105px;
+  margin-top:5px;
+  margin-left:5px;
+}
+
 .modal-wrapper {
   z-index: 999;
   position: fixed;
@@ -451,6 +463,7 @@ h2 {
   color: #2b2e38!important
 }
 
+
 @media screen and (max-width: 767px) {
   .modal-wrapper .modal-window {
     box-sizing: border-box;
@@ -487,10 +500,20 @@ h2 {
     height:100%;
     object-fit:cover /*ボックスに合わせてリサイズ*/
   }
+
+  .caption{
+    font-size: 14px;
+    font-family: "AUT-90";
+  }
+  
+  .icon img{
+    width: 70px;
+    margin-top:3px;
+  }
+
 }
 
 .scrolly{
-  margin-top:10px;
   margin-left:2vw;
   width:69vw;
   height:800px;
@@ -506,7 +529,7 @@ h2 {
   .scrolly{
     margin-right:1vw;
     width:75vw;
-    height:270px;
+    height:180px;
     overflow-y:scroll;
   }
 

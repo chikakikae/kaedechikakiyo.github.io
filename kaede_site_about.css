@@ -200,13 +200,15 @@ h1 {
     }
   
 .about{
-    font-size: 12px;
+    font-size: 13px;
     font-family: "AUT-60"; 
     position:absolute;
     top: 39vh;
     left: 25vw;
     text-decoration: none;
     color: #323232;
+    letter-spacing: 1px;
+    line-height: 20px;
     animation-name: fadein;
     animation-duration: 3s;
     }

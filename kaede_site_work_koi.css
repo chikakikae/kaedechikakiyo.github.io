@@ -265,7 +265,7 @@ h2 {
     }
 
  .about{
-   font-size: 12px;
+   font-size: 13px;
    font-family: "AUT-60"; 
    position:absolute;
    top: 46vh;
@@ -274,7 +274,7 @@ h2 {
    text-decoration: none;
    color: #323232;
    letter-spacing: 0.07em;
-   line-height:20px;
+   line-height:22px;
    animation-name: fadein;
    animation-duration: 2s; 
   }
@@ -321,7 +321,7 @@ h2 {
   
     
     .about{
-    font-size: 11px;
+    font-size: 12px;
     font-family: "AUT-60"; 
     position:absolute;
     top: 39vh;

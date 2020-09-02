@@ -186,7 +186,7 @@ main{
     flex-wrap:wrap; /*折り返して配置*/
     margin:0 15vw;
     justify-content:space-between;
-    margin-top:30vh;
+    margin-top:33vh;
   }
 
 
@@ -217,7 +217,7 @@ h1 {
 }
 
  .about{
-  font-size: 12px;
+  font-size: 13px;
   font-family: "AUT-60"; 
   position:absolute;
   top: 40vh;
@@ -227,7 +227,7 @@ h1 {
   text-decoration: none;
   color: #323232;
   letter-spacing: 0.07em;
-  line-height:20px;
+  line-height:22px;
   right: 30vw;
   animation-name: fadein;
   animation-duration: 2s; 
@@ -246,7 +246,7 @@ h1 {
     }
   
     .about{
-    font-size: 11px;
+    font-size: 12px;
     font-family: "AUT-60"; 
     position:absolute;
     top: 37vh;

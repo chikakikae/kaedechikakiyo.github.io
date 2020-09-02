@@ -264,13 +264,13 @@ h1 {
   left:0;
   right:0;
   margin:auto; 
-  bottom:13vh;
+  bottom:15vh;
   animation-name: fadein;
   animation-duration: 3s;
   }
 _::-webkit-full-page-media, _:future, :root 
 .profile {
-  bottom:1vh;
+  bottom:2vh;
 }
 
 .profile img{
@@ -284,7 +284,7 @@ footer {
   display: flex;
   align-items: center;
   position: relative;
-  top:60vh
+  top:50vh
 }
 
 .copyright {

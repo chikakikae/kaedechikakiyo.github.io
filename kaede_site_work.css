@@ -478,11 +478,32 @@ h2 {
     vertical-align: middle
   }
   
+  .modal-wrapper .modal-window .modal-content {
+    max-height: 55vh;
+    overflow-y: auto;
+  }
+
   .modal-close img{
     width: 20px;
     margin-top:0;
     margin-right:0;
    }
+
+   .modal-wrapper .modal-close {
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    color: #95979c!important;
+    margin-right:10px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0;
+}
 
   .work {
     width: 75vw;

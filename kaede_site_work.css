@@ -443,7 +443,7 @@ h2 {
 .modal-close img{
  width: 20px;
  margin-top:10px;
- margin-right:50px;
+ margin-right:20px;
 }
 
 
@@ -453,16 +453,23 @@ h2 {
 
 @media screen and (max-width: 767px) {
   .modal-wrapper .modal-window {
-    width: 95%;
-}
-
-
-.modal-close img{
-  width: 20px;
-  margin-top:0;
-  margin-right:0;
- }
- 
+    box-sizing: border-box;
+    display: inline-block;
+    z-index: 20;
+    position: relative;
+    width: 85%;
+    max-width: 600px;
+    padding:0;
+    border-radius: 2px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .6);
+    vertical-align: middle
+  }
+  
+  .modal-close img{
+    width: 20px;
+    margin-top:0;
+    margin-right:20px;
+   }
 
   .work {
     width: 75vw;

@@ -203,7 +203,7 @@ main{
     flex-direction: column;
     margin:0 13vw;
     justify-content:space-between;
-    margin-top:78vh;
+    margin-top:80vh;
     
   }
 }
@@ -258,7 +258,7 @@ h2 {
    position:absolute;
    top: 46vh;
    left: 16.5vw;
-   right: 30vw;
+   right: 31vw;
    text-decoration: none;
    color: #323232;
    letter-spacing: 0.07em;

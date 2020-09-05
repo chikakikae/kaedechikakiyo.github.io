@@ -183,6 +183,7 @@
 body {
   background-image:url("images/back1.jpg");
   background-size:cover;
+  
 }
 
 /*iPad用 画面の幅が480px以下の時は下のコードが反映される*/

@@ -347,6 +347,20 @@ h2 {
   object-fit:cover /*ボックスに合わせてリサイズ*/
 }
 
+.slick-next:before{
+  display: none;
+}
+
+.slick-prev:before{
+  display: none;
+}
+
+
+.slick-dots li button:before{
+  line-height: 40px !important
+}
+
+
 @media screen and (max-width: 767px) {
   .work {
     width: 75vw;
@@ -364,10 +378,11 @@ h2 {
     height:100%;
     object-fit:cover /*ボックスに合わせてリサイズ*/
   }
+
 }
 
 main a{
-  margin-top:30px;
+  margin-top:60px;
   width: 220px;
   height: 40px;
   font-size: 13px;
@@ -388,7 +403,7 @@ main a{
 
 @media screen and (max-width: 767px) {
   main a{
-    margin-top:30px;
+    margin-top:50px;
     width: 190px;
     height: 30px;
     font-size: 10px;

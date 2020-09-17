@@ -357,9 +357,21 @@ h2 {
 
 
 .slick-dots li button:before{
-  line-height: 40px !important
+  line-height: 40px !important;
+  font-family: slick;
+  font-size: 25px!important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•'!important;
+  font-family: 'Gill Sans'!important;
+  color: #323232!important;
+  border-radius: 100px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
 }
-
 
 @media screen and (max-width: 767px) {
   .work {
@@ -367,7 +379,7 @@ h2 {
     margin-left:1vw;
     /*padding:0 10px 50px 0;要素の内側の余白・上右下左*/
     box-sizing:border-box;
-    margin-bottom:2vh;
+    margin-bottom:5px;
         
     animation-name: fadein;
     animation-duration: 2s;
@@ -383,6 +395,8 @@ h2 {
 
 main a{
   margin-top:60px;
+  padding-bottom: 5px;
+  margin-left: 10px;
   /* width: 220px;
   height: 40px; */
   font-size: 13px;
@@ -390,7 +404,6 @@ main a{
   font-family: "AUT-90";
   color:#231300;
   border-bottom: solid 1px #231300; /*一重の線*/
-  padding-bottom: 5px;
 
   display: flex;
   align-items: center;

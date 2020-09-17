@@ -128,6 +128,7 @@
     list-style: none;
   }
     
+  
   .header-sp-nav-list  li {
     margin-bottom: 5vh;
   }
@@ -280,7 +281,7 @@ main{
   @media screen and (min-width: 768px) and (max-width: 1024px){
       .work {
         width: 36vw;
-        height:200px;
+        height:20vw;
         margin-bottom:2vh;
         margin-left:0.5vh;
         z-index: inherit 2;

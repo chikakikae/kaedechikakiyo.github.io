@@ -353,7 +353,7 @@ main{
 
 /*フッター*/
   footer {
-  height: 20vh;
+  height: 25vh;
   display: flex;
   align-items: center;
   position: relative;

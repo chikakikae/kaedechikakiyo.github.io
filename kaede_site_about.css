@@ -232,10 +232,12 @@ h1 {
   }
   
 .about{
+  font-size: 12px;
+  letter-spacing:0.05em;
   top: 39vh;
   left: 17vw;
-  right: 17vw;
-  line-height: 20px;
+  right: 16vw;
+  line-height: 19px;
    }
   }
 

@@ -5,6 +5,11 @@
 }
 
 @font-face {
+  font-family: "Shuei";
+  src: url(font/FOT-DNPShueiGoGinStd-L.otf);
+}
+
+@font-face {
     font-family:"DIN";
     src: url(font/DIN\ Alternate\ Bold.ttf);
   }
@@ -172,7 +177,7 @@ body {
 
 @media screen and (max-width: 767px) {
   body {
-    background-image:url("images/back3.jpg");
+    background-image:url("images/back6.jpg");
   }
 }
 
@@ -212,18 +217,35 @@ h1 {
     animation-name: fadein;
     animation-duration: 3s;
     }
-    
-@keyframes fadein {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-    }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-    }
-  }
 
+    /* .about2{
+      font-size: 12px;
+      font-family: "AUT-60"; 
+      position:absolute;
+      top: 490px;
+      left: 25vw;
+      text-decoration: none;
+      color: #323232;
+      letter-spacing: 1px;
+      line-height: 22px;
+      animation-name: fadein;
+      animation-duration: 3s;
+      }
+
+      h2 {
+        font-size: 14px;
+        font-family: "AUT-130"; 
+        position:absolute;
+        top: 450px;
+        left: 25vw;
+        right: 17vw;
+        text-decoration: none;
+        color: #323232;
+        letter-spacing: 0.05em;
+        animation-name: fadein;
+        animation-duration: 3s;
+        } */
+  
 
 @media screen and (max-width: 767px) {
 h1 {
@@ -241,19 +263,7 @@ h1 {
    }
   }
 
-/*h2 {
-  font-size: 14px;
-  font-family: "AUT-130"; 
-  position:absolute;
-  top: 70vh;
-  left: 17vw;
-  right: 17vw;
-  text-decoration: none;
-  color: #323232;
-  letter-spacing: 0.05em;
-  }*/
-
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
 .profile {
   display:none;
   }
@@ -270,6 +280,7 @@ h1 {
   animation-name: fadein;
   animation-duration: 3s;
   }
+
 _::-webkit-full-page-media, _:future, :root 
 .profile {
   bottom:2vh;
@@ -279,24 +290,23 @@ _::-webkit-full-page-media, _:future, :root
   width: 100%;
   height:100%;
   }
-}
+} */
 
 footer {
-  height: 20vh;
+  height: 10vh;
   display: flex;
   align-items: center;
   position: relative;
-  top:50vh
+  top:460px;
 }
 
 .copyright {
-  position: absolute;
-  bottom: 3.5vh;
-  padding-left: 5vw;
-
+  /* bottom:35px; */
+  text-align: center;
+  margin: auto;
   text-decoration: none;
   color: gray;
-  font-size: 10px;
+  font-size: 11px;
   font-family: "Shuei";
   letter-spacing: 0.08em;
 }
@@ -355,3 +365,15 @@ h1 {
   animation-duration: 3s;
 }
 }
+
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+  }

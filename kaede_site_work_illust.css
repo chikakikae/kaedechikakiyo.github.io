@@ -297,7 +297,7 @@ footer {
   display: flex;
   align-items: center;
   position: relative;
-  margin-top: 50px;
+  margin-top: 100px;
   
 }
 
@@ -332,6 +332,24 @@ footer {
   letter-spacing: 0.08em;
 }
 
+.insta {
+  width: 2.5vh;
+  position:absolute;
+  bottom:140px;
+  left:10px;
+  right:0;
+  margin:auto; 
+}
+
+.insta img{
+  width:100%;
+}
+
+.insta a:hover {
+  opacity: 0.5;
+}
+
+
 @media screen and (max-width: 767px) {
   footer {
     width: 100%;
@@ -339,7 +357,7 @@ footer {
     display: flex;
     align-items: center;
     position: relative;
-    margin-top: 50px;
+    margin-top: 100px;
   }
   
   .prev {
@@ -371,7 +389,22 @@ footer {
     letter-spacing: 0.08em;
   }
 
-  
+.insta {
+  width: 2.5vh;
+  position:absolute;
+  bottom:100px;
+  left:7px;
+  right:0;
+  margin:auto; 
+}
+
+.insta img{
+  width:100%;
+}
+
+.insta a:hover {
+  opacity: 0.5;
+}
 }
 
 /* footer {

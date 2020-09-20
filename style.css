@@ -255,7 +255,7 @@ main{
   height:100%;
   opacity:0;
   text-align:center;
-  transition: all 0.7s;
+  transition: all 0.5s;
 }
 
 .work:hover .hover-caption{

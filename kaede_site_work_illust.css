@@ -232,6 +232,7 @@ h1 {
   animation-duration: 2s; 
   }
 
+
   @media screen and (max-width: 767px) {
     h1 {
     font-size: 15.5px;

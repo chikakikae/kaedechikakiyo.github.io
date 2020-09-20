@@ -218,33 +218,32 @@ h1 {
     animation-duration: 3s;
     }
 
-    /* .about2{
-      font-size: 12px;
-      font-family: "AUT-60"; 
-      position:absolute;
-      top: 490px;
-      left: 25vw;
-      text-decoration: none;
-      color: #323232;
-      letter-spacing: 1px;
-      line-height: 22px;
-      animation-name: fadein;
-      animation-duration: 3s;
-      }
-
-      h2 {
+      /* h2 {
         font-size: 14px;
         font-family: "AUT-130"; 
         position:absolute;
         top: 450px;
         left: 25vw;
-        right: 17vw;
         text-decoration: none;
         color: #323232;
         letter-spacing: 0.05em;
         animation-name: fadein;
         animation-duration: 3s;
-        } */
+        } 
+
+        .about2{
+         font-size: 11px;
+         font-family: "AUT-60"; 
+         position:absolute;
+         top: 490px;
+         left: 25vw;
+         text-decoration: none;
+         color: #323232;
+         letter-spacing: 1px;
+         line-height: 20px;
+         animation-name: fadein;
+         animation-duration: 3s;
+         } */
   
 
 @media screen and (max-width: 767px) {

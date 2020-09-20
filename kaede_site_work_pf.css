@@ -399,6 +399,32 @@ h2 {
     }
 }
 
+/* .slick-next:before{
+  display: none;
+}
+
+.slick-prev:before{
+  display: none;
+} */
+
+
+.slick-dots li button:before{
+  line-height: 15px !important;
+  font-family: slick;
+  font-size: 25px!important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•'!important;
+  font-family: 'Gill Sans'!important;
+  color: #323232!important;
+  border-radius: 100px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+
 
 footer {
   width: 100%;

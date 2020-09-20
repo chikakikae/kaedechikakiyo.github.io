@@ -165,7 +165,9 @@
   border-bottom: solid 2px #282828;
   font-size: 16px;
   font-family: "DIN"; 
-  position:absolute;
+  position: absolute;
+  /* position:fixed;
+  z-index: 2; */
   top: 10vh;
   left: 16vw;
   animation-name: fadein;
@@ -174,6 +176,7 @@
 
 @media screen and (max-width: 767px) {
   .under {
+
     top: 10vh;
     left: 14vw;
   }

@@ -186,7 +186,7 @@ body {
 
 @media screen and (max-width: 767px) {
   body {
-    background-image:url("images/back3.jpg");
+    background-image:url("images/back1.jpg");
   background-size: cover;
   }
 }
@@ -197,7 +197,7 @@ main{
   align-items: center;
   margin:0 16vw;
   justify-content:space-between;
-  margin-top:54vh;
+  margin-top:48vh;
   
 }
 

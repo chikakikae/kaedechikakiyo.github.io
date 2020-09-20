@@ -191,9 +191,9 @@ body {
 }
 
 /*iPad用 画面の幅が480px以下の時は下のコードが反映される*/
-@media screen and (min-width: 768px) and (max-width: 1024px){ 
+@media screen and (max-width: 767px) {
   body {
-    background-image:url("images/back2.jpg");
+    background-image:url("images/back1.jpg");
     background-size:cover;
   }
 }

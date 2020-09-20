@@ -465,7 +465,7 @@ h2 {
     z-index: 20;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 25px;
     width: 35px;
     color: #95979c!important;
     font-size: 20px;
@@ -477,9 +477,8 @@ h2 {
   }
   
   .modal-close img{
-   width: 20px;
-   margin-top:10px;
-   margin-right:20px;
+   width: 40px;
+   margin-top:20px;
   }
   
   
@@ -509,17 +508,15 @@ h2 {
     }
   
     .modal-close img{
-      width: 20px;
-      margin-top:0;
-      margin-right:0;
+      width: 40px;
+      margin-top:20px;
      }
   
      .modal-wrapper .modal-close {
       z-index: 20;
       position: absolute;
       top: 0;
-      right: 0;
-      width: 25px;
+      right: 10px;
       color: #95979c!important;
       margin-right:10px;
       font-size: 20px;

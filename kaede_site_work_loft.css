@@ -205,7 +205,7 @@ main{
   align-items: center;
   margin:0 16vw;
   justify-content:space-between;
-  margin-top:40vh;
+  margin-top:35vh;
 }
 
 @media screen and (max-width: 767px) {

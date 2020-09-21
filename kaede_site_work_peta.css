@@ -193,7 +193,7 @@ main{
 
 @media screen and (max-width: 767px) {
   body {
-    background-image:url("images/back2.jpg");
+    background-image:url("images/back7.jpg");
     background-size: cover;
   }
 
@@ -203,7 +203,7 @@ main{
     flex-direction: column;
     margin:0 13vw;
     justify-content:space-between;
-    margin-top:75vh;
+    margin-top:78vh;
     
   }
 }

@@ -205,7 +205,7 @@ main{
   align-items: center;
   margin:0 16vw;
   justify-content:space-between;
-  margin-top:37vh;
+  margin-top:41vh;
 }
 
 @media screen and (max-width: 767px) {
@@ -215,7 +215,7 @@ main{
     align-items: center;
     margin:0 16vw;
     justify-content:space-between;
-    margin-top:44vh;
+    margin-top:53vh;
   }
 }
 
@@ -330,7 +330,7 @@ h2 {
     text-decoration: none;
     color: #323232;
     letter-spacing: 0.1em;
-    line-height:18px;
+    line-height:19px;
     animation-name: fadein;
     animation-duration: 2s;
     }

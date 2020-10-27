@@ -188,7 +188,7 @@ main{
   flex-direction: column;
   margin:0 15vw;
   justify-content:space-between;
-  margin-top:53vh;
+  margin-top:50vh;
 }
 
 @media screen and (max-width: 767px) {
@@ -203,7 +203,7 @@ main{
     flex-direction: column;
     margin:0 13vw;
     justify-content:space-between;
-    margin-top:78vh;
+    margin-top:73vh;
     
   }
 }

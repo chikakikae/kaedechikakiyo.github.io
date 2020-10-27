@@ -186,7 +186,7 @@ main{
     flex-wrap:wrap; /*折り返して配置*/
     margin:0 15vw;
     justify-content:space-between;
-    margin-top:32vh;
+    margin-top:40vh;
   }
 
 
@@ -197,7 +197,7 @@ main{
     align-items: center;
     margin:0 12vw;
     justify-content:space-between;
-    margin-top:52vh;
+    margin-top:50vh;
   }
 }
 
@@ -220,7 +220,7 @@ h1 {
   font-size: 13px;
   font-family: "AUT-60"; 
   position:absolute;
-  top: 40vh;
+  top: 47vh;
   left: 16.5vw;
   
   text-decoration: none;
@@ -249,7 +249,7 @@ h1 {
     font-size: 12px;
     font-family: "AUT-60"; 
     position:absolute;
-    top: 37vh;
+    top: 42vh;
     left: 14vw;
     right: 15vw;
     text-decoration: none;

@@ -187,7 +187,7 @@ main{
   align-items: center;
   margin:0 16vw;
   justify-content:space-between;
-  margin-top:41vh;
+  margin-top:44vh;
 }
 
 @media screen and (max-width: 767px) {
@@ -202,7 +202,7 @@ main{
     align-items: center;
     margin:0 16vw;
     justify-content:space-between;
-    margin-top:64vh;
+    margin-top:66vh;
     margin-bottom:16px;
   }
 }

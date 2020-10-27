@@ -186,7 +186,7 @@ main{
     flex-wrap:wrap; /*折り返して配置*/
     margin:0 15vw;
     justify-content:space-between;
-    margin-top:27vh;
+    margin-top:32vh;
   }
 
 @media screen and (max-width: 767px) {
@@ -201,7 +201,7 @@ main{
     align-items: center;
     margin:0 12vw;
     justify-content:space-between;
-    margin-top:33vh;
+    margin-top:35vh;
   }
 }
 

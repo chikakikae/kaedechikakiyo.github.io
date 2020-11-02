@@ -214,7 +214,7 @@ h1 {
     font-family: "AUT-60"; 
     position:absolute;
     top: 30vh;
-    left: 25vw;
+    left: 20vw;
     text-decoration: none;
     color: #323232;
     animation-name: fadein;
@@ -226,7 +226,7 @@ h1 {
     font-family: "AUT-60"; 
     position:absolute;
     top: 39vh;
-    left: 25vw;
+    left: 20vw;
     text-decoration: none;
     color: #323232;
     letter-spacing: 1px;
@@ -240,7 +240,7 @@ h2 {
     font-family: "AUT-130"; 
     position:absolute;
     top: 450px;
-    left: 25vw;
+    left: 20vw;
     text-decoration: none;
     color: #323232;
     letter-spacing: 0.05em;
@@ -253,7 +253,7 @@ h2 {
     font-family: "AUT-60"; 
     position:absolute;
     top: 490px;
-    left: 25vw;
+    left: 20vw;
     text-decoration: none;
     color: #323232;
     letter-spacing: 1px;

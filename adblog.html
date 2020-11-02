@@ -1,14 +1,15 @@
 <!DOCTYPE html> 
 <html>
   <!-- head=ブラウザには表示されない・ページに関する設定情報 -->
-  <head> 
-
+  <head>  
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177450818-2"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());   
+      gtag('js', new Date());
+    
       gtag('config', 'UA-177450818-2');
     </script>
     
@@ -17,15 +18,16 @@
 
     <!-- いろんなデバイス幅で表示崩れが起きないようにするやつ -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
     <meta 
-      name="description"
+    name="description"
       content="ポートフォリオサイト" />
       <link rel="shortcut icon" href="images/flower.png">
 
     <!-- ページタイトル・ブラウザのタブ上に表示 -->
     <title>kaedechikakiyo</title>
     <!-- css読み込み・stylesheet=読み込む宣言・その後""内にcssのファイル名を記載 -->
-    <link rel="stylesheet" href="kaede_site_about.css" />
+    <link rel="stylesheet" href="./kaede_site_work_loft.css" />
 
    <!-- jquery -->
     <script
@@ -42,6 +44,8 @@
 
     <header> 
       <span class="under"><a href="index.html"style="text-decoration:none; color:#000000;">kaedechikakiyo</span>
+      <!--spanはグループ化-->      
+      
       <ul class="header-nav-list"> <!-- ヘッダーのリスト-->
         <li>
           <a href="about.html">about</a>
@@ -56,11 +60,12 @@
           <a href="https://www.instagram.com/_chika_drawing/"><img src="insta.png" alt="インスタへ"></a> <!--インスタへ-->
         </li>
       </ul>
-
+      
       <!-- スマホ用 -->
       <div class="header-sp-icon-wrap"> <!--メニューアイコンを包む-->
         <img id="mypic" onclick="slideshow()" s src="images/menu-icon.png" alt="メニューアイコン">
       </div>
+      
 
       <div class="header-sp-nav">
         <ul class="header-sp-nav-list">
@@ -78,32 +83,41 @@
           </li>
         </ul>
       </div>
+      
       <!-- ここまで -->
-      </a> 
+      
     </header>
 
-   <main> <!-- サイトの中心となる内容 -->
-      <h1>近清 楓</h1>
-      <p class="about">
-        1998 &nbsp;愛知県生まれ</br>
-        2017 &nbsp;名古屋市立大学 芸術工学部 グラフィックデザイン専攻 在学</br>
-        <!-- 2021 &nbsp;アドウェイズ グラフィック/WEBデザイナー</br> -->
-      </br>
-      大学ではグラフィックを中心に、ブランディングやWEB、テキスタイルなどのデザインを学んでいます。</br>
-      また、インスタグラムの@_chika_drawingに日々イラストレーションを載せています。
-      </p>
 
-       <h2>carrer</h2>
-       <p class="about2">
-       2018.8 &nbsp;&nbsp;ロフト名古屋 販売促進でアルバイト活動 / POP制作, 優待券デザイン等を担当(-2020.10)</br>
-       2019.4 &nbsp;&nbsp;高知県佐川町 まちまるごと植物園 ロゴマーク一般公募 最優秀賞受賞</br>
-       2019.8 &nbsp;&nbsp;NAGOYA DESIGN THINK プロジェクト / (株)野村紙器の新ブランドのデザイン制作 東京ビッグサイトでのギフトショーに出展(-2020.3)</br>
-       2020.1 &nbsp;&nbsp;年賀状2021コンペティション &nbsp;佳作２点</p>
-                 
+   <main> <!-- サイトの中心となる内容 -->
+    
+    <span class="setumei">
+    <h1>ADWAYS Inc. / creative Blog</h1>
+    <h2>concept</h2> <h3>&nbsp;好きを仕事にする</h3>
+      <div class="about">
+        <p>ADWAYSに2016年に新卒入社したディレクターに、好きを仕事にするをテーマにインタビューを行いました。本記事で私は、執筆とデザインを担当しています。他にもたくさんの記事が投稿されているので、ぜひご覧ください。</br>
+      </br>
+       2020.11 公開| writing, thubnail design</p></div>
+      </span>
+
+
+      <div class="work">
+          <img src="images/ad_1.jpg" alt="作品01"></div>
+      <div class="work">
+          <img src="images/ad_2.jpg" alt="作品02"></div>
+      <div class="work">
+          <img src="images/ad_3.jpg" alt="作品02"></div>
+
+     <a href="https://note.com/adways_creative" style="text-decoration:none; color:#000000;" >ブログ記事を読む </a>
+
      </main>
 
 
      <footer>
+
+      <span class="prev"><a href="loft.html"style="text-decoration:none; color:#000000;">‹ prev</a></span>
+      <span class="next"><a href="pf_site.html"style="text-decoration:none; color:#000000;">next ›</a></span>
+
       <!--<a class="scroll-top" href="#">
         <img src="img/up.png" />
         <p>TOPへ戻る</p>
@@ -112,7 +126,9 @@
     </footer>
 
   </body>
-  
+
   <script src="script.js"></script>
+  
+  
 
 </html>

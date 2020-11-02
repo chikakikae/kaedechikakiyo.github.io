@@ -167,36 +167,9 @@ header {
   animation-duration: 2s; 
 }
 
-@media screen and (max-width: 767px) {
-  .under {
-    border-bottom: solid 2px #282828;
-    font-size: 16px;
-    font-family: "DIN"; 
-    position:absolute;
-    top: 10vh;
-    left: 14vw;
-  }
-}  
-
-
 body {
   background-image:url("images/back5.jpg");
   background-size: cover;
-}
-
-/*iPad用 画面の幅が480px以下の時は下のコードが反映される*/
-@media screen and (min-width: 768px) and (max-width: 1024px){ 
-  body {
-    background-image:url("images/back5.jpg");
-    background-size:cover;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  body {
-    background-image:url("images/back1.jpg");
-  background-size: cover;
-  }
 }
 
 main{
@@ -208,17 +181,88 @@ main{
   margin-top:40vh;
 }
 
+/*iPad用*/
+@media screen and (min-width: 768px) and (max-width: 1024px){ 
+  body {
+    background-image:url("images/back2.jpg");
+    background-size:cover;
+  }
+  
+  header {
+    height: 25vh;  
+  }
+
+  .header-nav-list img {
+    height: 2vh;
+    opacity: .6s;
+  }
+
+  .under {
+    top: 7vh;
+  }
+
+  main {
+    margin-top: 25vh;
+  }
+}
+
+
 @media screen and (max-width: 767px) {
-  main{
+.under {
+    top: 10vh;
+    left: 14vw;
+    font-size: 14px;
+}
+
+body {
+    background-image:url("images/back1.jpg");
+  background-size: cover;
+}
+
+main{
     display:flex;
     flex-direction: column;
     align-items: center;
     margin:0 16vw;
     justify-content:space-between;
-    margin-top:47vh;
+    margin-top:50vh;
   }
 }
 
+main a{
+  margin-top:60px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: "AUT-90";
+  color:#231300;
+  border-bottom: solid 1px #231300; /*一重の線*/
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  justify-content: center; /*この３列で上下中央ぞろえ*/
+  float: right;
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+
+main a:hover{
+  text-decoration: none;
+  font-family: "AUT-90";
+  color:#AAAAAA!important;
+  border-bottom: solid 1px #AAAAAA; /*一重の線*/
+}
+
+@media screen and (max-width: 767px) {
+  main a{
+    margin-top:50px;
+    padding-bottom: 2px;
+    height: 30px;
+    font-size: 10px;
+  }
+}
 
 h1 {
   font-size: 21px;
@@ -259,6 +303,8 @@ h2 {
     left: 21vw;
     text-decoration: none;
     color: #323232;
+
+   line-height:22px;
     letter-spacing: 0.05em;
     animation-name: fadein;
     animation-duration: 2s; 
@@ -274,74 +320,82 @@ h2 {
    text-decoration: none;
    color: #323232;
    letter-spacing: 0.07em;
-   line-height:22px;
+   line-height:20px;
    animation-name: fadein;
    animation-duration: 2s; 
   }
 
+  /*iPad用*/
+@media screen and (min-width: 768px) and (max-width: 1024px){ 
+  h1 {
+    font-size: 21px;
+    top: 20vh;
+    left: 16.5vw;
+    letter-spacing: 0.05em;
+  }
+
+h2 {
+  font-size: 13px;
+  top: 25vh;
+  left: 16.5vw;
+  letter-spacing: 0.05em;
+}
+
+h3 {
+  font-size: 17px;
+  top: 24.5vh;
+  left: 24vw;
+  letter-spacing: 0.05em;
+}
+
+.about {
+  font-size: 15px;
+  top: 30vh;
+  left: 16.5vw;
+  right: 20vw;
+  letter-spacing: 0.07em;
+  line-height: 25px;
+}
+}
+
+  /*スマホ用*/
   @media screen and (max-width: 767px) {
     h1 {
     font-size: 15.5px;
-    font-family: "AUT-130"; 
-    position:absolute;
     top: 26vh;
     left: 14vw;
-    text-decoration: none;
-    color: #323232;
     letter-spacing: 0.05em;
-    animation-name: fadein;
-    animation-duration: 2s;
     }
   
     h2 {
     font-size: 12px;
-    font-family: "AUT-90"; 
-    position:absolute;
-    top: 34vh;
+    top: 36vh;
     left: 14vw;
-    text-decoration: none;
-    color: #323232;
     letter-spacing: 0.05em;
-    animation-name: fadein;
-    animation-duration: 2s;
     }
     
     h3 {
-    font-size: 13px;
-    font-family: "AUT-60"; 
-    position:absolute;
-    top: 33.5vh;
+    font-size: 14px;
+    top: 35.2vh;
     left: 29.5vw;
-    text-decoration: none;
-    color: #323232;
     letter-spacing: 0.05em;
-    animation-name: fadein;
-    animation-duration: 2s;
     }
-  
     
     .about{
-    font-size: 12px;
-    font-family: "AUT-60"; 
-    position:absolute;
-    top: 39vh;
+    font-size: 11px;
+    top: 42vh;
     left: 14vw;
     right: 15vw;
-    text-decoration: none;
-    color: #323232;
     letter-spacing: 0.1em;
-    line-height:18px;
-    animation-name: fadein;
-    animation-duration: 2s;
+    line-height:19px;
     }
   }
 
 .work {
   width: 69vw;
-  margin-left:2vw;
-  margin-bottom:0.5vh;
   /*padding:0 10px 50px 0;要素の内側の余白・上右下左*/
   box-sizing:border-box;
+  margin-bottom: 7px;
   animation-name: fadein;
   animation-duration: 2s; 
 }
@@ -352,14 +406,27 @@ h2 {
   object-fit:cover /*ボックスに合わせてリサイズ*/
 }
 
+.caption{
+  color:gray;
+  font-size: 15px;
+  font-family: "AUT-60";
+  line-height:22px;
+
+  margin-left: 20px;
+  letter-spacing: 2px;
+  padding-top:5px;
+  padding-bottom: 25px;
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+
+
 @media screen and (max-width: 767px) {
   .work {
     width: 75vw;
-    margin-left:1vw;
     /*padding:0 10px 50px 0;要素の内側の余白・上右下左*/
     box-sizing:border-box;
-
-        
+    margin-bottom: 5px;
     animation-name: fadein;
     animation-duration: 2s;
  }
@@ -369,6 +436,19 @@ h2 {
     height:100%;
     object-fit:cover /*ボックスに合わせてリサイズ*/
   }
+
+  .caption{
+    font-size: 11px;
+    font-family: "AUT-60";
+    margin-left: 11px;
+    padding-top:2px;
+    padding-bottom:10px;
+    letter-spacing: 1px;
+    line-height:22px;
+    animation-name: fadein;
+    animation-duration: 2s;
+  }
+  
 }
 
 .scrolly img{
@@ -440,124 +520,41 @@ footer {
   letter-spacing: 0.08em;
 }
 
+/*iPad用*/
+@media screen and (min-width: 768px) and (max-width: 1024px){ 
+  footer {
+    height: 10vh;
+  }
+  }
+
+/*スマホ用*/
 @media screen and (max-width: 767px) {
   footer {
-    width: 100%;
     height: 9vh;
-    display: flex;
-    align-items: center;
-    position: relative;
     margin-top: 50px;
   }
   
   .prev {
-    text-decoration: none;
     font-size: 14px;
-    font-family: "AUT-90"; 
-    position:fixed;
+    font-family: "AUT-90";
     bottom:20px;
     left: 30px;
   }
 
   .next {
-    text-decoration: none;
     font-size: 14px;
-    font-family: "AUT-90"; 
-    position:fixed;
+    font-family: "AUT-90";
     bottom:20px;
     left: 85px;
   }
 
   .copyright {
-    /* bottom: 3vh; */
     margin-right: 7vw;
-
-    text-decoration: none;
-    color: gray;
     font-size: 10px;
     font-family: "AUT-60";
     letter-spacing: 0.08em;
   }
 }
-
-/* footer {
-  width: 100%;
-  height: 45vh;
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-
-.prev {
-  text-decoration: none;
-  font-size: 18px;
-  font-family: "DIN"; 
-  position:absolute;
-  bottom:270px;
-  left: 15vw;
-}
-
-.next {
-  text-decoration: none;
-  font-size: 18px;
-  font-family: "DIN"; 
-  position:absolute;
-  bottom:270px;
-  right: 14vw;
-}
-
-.copyright {
-  position: absolute;
-  bottom: 3.5vh;
-  padding-left: 5vw;
-
-  text-decoration: none;
-  color: gray;
-  font-size: 10px;
-  font-family: "Shuei";
-  letter-spacing: 0.08em;
-}
-
-@media screen and (max-width: 767px) {
-  footer {
-    width: 100%;
-    height: 25vh;
-    display: flex;
-    align-items: center;
-    position: relative;
-  }
-  
-  .prev {
-    text-decoration: none;
-    font-size: 14px;
-    font-family: "AUT-90"; 
-    position:absolute;
-    bottom:19vh;
-    left: 13vw;
-  }
-
-  .next {
-    text-decoration: none;
-    font-size: 14px;
-    font-family: "AUT-90"; 
-    position:absolute;
-    bottom:19vh;
-    right: 13vw;
-  }
-
-  .copyright {
-    position: absolute;
-    bottom: 3vh;
-    padding-left: 7vw;
-  
-    text-decoration: none;
-    color: gray;
-    font-size: 10px;
-    font-family: "AUT-60";
-    letter-spacing: 0.08em;
-  }
-} */
-    
 
 
 

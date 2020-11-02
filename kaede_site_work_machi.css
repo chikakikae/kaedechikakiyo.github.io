@@ -167,23 +167,11 @@ header {
   animation-duration: 2s; 
 }
 
-@media screen and (max-width: 767px) {
-  .under {
-    border-bottom: solid 2px #282828;
-    font-size: 16px;
-    font-family: "DIN"; 
-    position:absolute;
-    top: 10vh;
-    left: 14vw;
-  }
-}  
-
 
 body {
   background-image:url("images/back5.jpg");
   background-size: cover;
 }
-
 
 main{
   display:flex;
@@ -195,18 +183,43 @@ main{
   
 }
 
-@media screen and (max-width: 767px) {
+/*iPad用 画面の幅が480px以下の時は下のコードが反映される*/
+@media screen and (min-width: 768px) and (max-width: 1024px){ 
   body {
     background-image:url("images/back3.jpg");
-    background-size: cover;
+    background-size:cover;
+  }
+  
+  header {
+    height: 25vh;  
+  }
+
+  .header-nav-list img {
+    height: 2vh;
+    opacity: .6s;
+  }
+
+  .under {
+    top: 7vh;
+  }
+
+  main {
+    margin-top: 25vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .under {
+    top: 10vh;
+    left: 14vw;
+    font-size: 14px;
+  }
+
+  body {
+    background-image:url("images/back3.jpg");
   }
 
   main{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin:0 16vw;
-    justify-content:space-between;
     margin-top:57vh;
   }
 }
@@ -270,6 +283,39 @@ h2 {
    animation-name: fadein;
    animation-duration: 2s; 
   }
+
+/*iPad用*/
+@media screen and (min-width: 768px) and (max-width: 1024px){ 
+  h1 {
+    font-size: 21px;
+    top: 20vh;
+    left: 16.5vw;
+    letter-spacing: 0.05em;
+  }
+
+h2 {
+  font-size: 13px;
+  top: 25vh;
+  left: 16.5vw;
+  letter-spacing: 0.05em;
+}
+
+h3 {
+  font-size: 17px;
+  top: 24.5vh;
+  left: 24vw;
+  letter-spacing: 0.05em;
+}
+
+.about {
+  font-size: 15px;
+  top: 30vh;
+  left: 16.5vw;
+  right: 20vw;
+  letter-spacing: 0.07em;
+  line-height: 25px;
+}
+}
 
   @media screen and (max-width: 767px) {
     h1 {
@@ -435,6 +481,13 @@ footer {
   letter-spacing: 0.08em;
 }
 
+/*iPad用*/
+@media screen and (min-width: 768px) and (max-width: 1024px){ 
+  footer {
+    height: 10vh;
+  }
+  }
+
 @media screen and (max-width: 767px) {
   footer {
     width: 100%;
@@ -473,98 +526,6 @@ footer {
     font-family: "AUT-60";
     letter-spacing: 0.08em;
   }
-}
-
-/*iPad用 画面の幅が480px以下の時は下のコードが反映される*/
-@media screen and (min-width: 768px) and (max-width: 1024px){ 
-  .header-nav-list img {
-    height: 2vh;
-    opacity: .6s;
-}
-
-  h1 {
-    font-size: 21px;
-    font-family: "AUT-130";
-    font-weight: 600;
-    position: absolute;
-    top: 20vh;
-    left: 16.5vw;
-    text-decoration: none;
-    color: #323232;
-    letter-spacing: 0.05em;
-}
-
-h2 {
-  font-size: 13px;
-  font-family: "AUT-90";
-  font-weight: 550;
-  position: absolute;
-  top: 25vh;
-  left: 16.5vw;
-  text-decoration: none;
-  color: #323232;
-  letter-spacing: 0.05em;
-}
-
-h3 {
-  font-size: 17px;
-  font-family: "AUT-60";
-  font-weight: 600;
-  position: absolute;
-  top: 24.5vh;
-  left: 24vw;
-  text-decoration: none;
-  color: #323232;
-  letter-spacing: 0.05em;
-}
-
-.about {
-  font-size: 15px;
-  font-family: "AUT-60";
-  position: absolute;
-  top: 29vh;
-  left: 16.5vw;
-  right: 20vw;
-  text-decoration: none;
-  color: #323232;
-  letter-spacing: 0.07em;
-  line-height: 25px;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 16vw;
-  justify-content: space-between;
-  margin-top: 18vh;
-}
-
-footer {
-  width: 100%;
-  height: 30vh;
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-
-.prev {
-  text-decoration: none;
-  font-size: 23px;
-  font-family: "DIN";
-  position: absolute;
-  bottom: 25vh;
-  left: 14vw;
-}
-
-.next {
-  text-decoration: none;
-  font-size: 23px;
-  font-family: "DIN";
-  position: absolute;
-  bottom: 25vh;
-  right: 13vw;
-}
 }
     
 

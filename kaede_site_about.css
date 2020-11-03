@@ -278,6 +278,7 @@ h1 {
 h1 {
   top: 28vh;
   left: 17vw;
+  letter-spacing: 0.03em;
   }
   
 .about{
@@ -325,7 +326,7 @@ footer {
 /*スマホ用*/
 @media screen and (max-width: 767px) {
   footer {
-    height: 500px;
+    height: 400px;
     display: flex;
     align-items: center;
     position: relative;

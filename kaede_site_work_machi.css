@@ -410,6 +410,38 @@ h3 {
   }
 }
 
+main a{
+  margin-top:60px;
+  margin-left: 10px;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: "AUT-90";
+  color:#323232;
+  border-bottom: solid 1px #231300; /*一重の線*/
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  justify-content: center; /*この３列で上下中央ぞろえ*/
+  float: right;
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+
+main a:hover{
+  text-decoration: none;
+  font-family: "AUT-90";
+  color:#AAAAAA!important;
+  border-bottom: solid 1px #AAAAAA; /*一重の線*/
+}
+
+@media screen and (max-width: 767px) {
+  main a{
+    margin-top:40px;
+    height: 20px;
+    font-size: 10px;
+  }
+}
+
 .scrolly{
   margin-left:2vw;
   width:69vw;

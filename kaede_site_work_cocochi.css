@@ -412,14 +412,12 @@ h3 {
 
 main a{
   margin-top:60px;
-  padding-bottom: 5px;
   margin-left: 10px;
   font-size: 13px;
   text-decoration: none;
   font-family: "AUT-90";
-  color:#231300;
+  color:#323232;
   border-bottom: solid 1px #231300; /*一重の線*/
-
   display: flex;
   align-items: center;
   letter-spacing: 1px;
@@ -439,8 +437,7 @@ main a:hover{
 @media screen and (max-width: 767px) {
   main a{
     margin-top:50px;
-    padding-bottom: 2px;
-    height: 30px;
+    height: 20px;
     font-size: 10px;
   }
 

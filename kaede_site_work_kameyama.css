@@ -290,6 +290,16 @@ h2 {
    animation-duration: 2s; 
   }
 
+  .info{
+    font-size: 11px;
+    font-family: "AUT-60"; 
+    position: relative;
+    text-decoration: none;
+    color: #323232;
+    letter-spacing: 0.07em;
+    line-height:22px;
+   }
+
 /*iPad用*/
 @media screen and (min-width: 768px) and (max-width: 1024px){ 
   h1 {
@@ -321,64 +331,50 @@ h3 {
   letter-spacing: 0.07em;
   line-height: 25px;
 }
+
+.info{
+  font-size: 11px;
+ }
 }
 
   @media screen and (max-width: 767px) {
     h1 {
     font-size: 15.5px;
-    font-family: "AUT-130"; 
-    position:absolute;
     top: 26vh;
     left: 14vw;
-    text-decoration: none;
-    color: #323232;
     letter-spacing: 0.05em;
-    animation-name: fadein;
-    animation-duration: 2s;
     }
   
     h2 {
     font-size: 12px;
-    font-family: "AUT-90"; 
-    position:absolute;
     top: 36vh;
     left: 14vw;
-    text-decoration: none;
-    color: #323232;
     letter-spacing: 0.05em;
-    animation-name: fadein;
-    animation-duration: 2s;
     }
     
     h3 {
     font-size: 14px;
-    font-family: "AUT-90"; 
-    position:absolute;
     top: 35.2vh;
     left: 29vw;
     right:18vw;
-    text-decoration: none;
-    color: #323232;
     letter-spacing: 0.02em;
-    animation-name: fadein;
-    animation-duration: 2s;
     }
   
     
     .about{
     font-size: 11px;
-    font-family: "AUT-60"; 
-    position:absolute;
     top: 42vh;
     left: 14vw;
     right: 15vw;
-    text-decoration: none;
-    color: #323232;
     letter-spacing: 0.1em;
     line-height:18px;
-    animation-name: fadein;
-    animation-duration: 2s;
     }
+
+    .info{
+      font-size: 10px;
+      letter-spacing: 0.05em;
+     }
+    
   }
 
 .work {

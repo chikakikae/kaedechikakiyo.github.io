@@ -283,10 +283,19 @@ h2 {
    color: #323232;
    letter-spacing: 0.07em;
    line-height:22px;
-
    animation-name: fadein;
    animation-duration: 2s;
   }
+
+  .info{
+    font-size: 11px;
+    font-family: "AUT-60"; 
+    position: relative;
+    text-decoration: none;
+    color: #323232;
+    letter-spacing: 0.07em;
+    line-height:22px;
+   }
 
 /*iPad用*/
 @media screen and (min-width: 768px) and (max-width: 1024px){ 
@@ -319,6 +328,10 @@ h2 {
     letter-spacing: 0.07em;
     line-height: 25px;
   }
+
+  .info{
+    font-size: 11px;
+   }
 }
 
   /*スマホ用*/
@@ -352,6 +365,11 @@ h2 {
     letter-spacing: 0.1em;
     line-height:19px;
     }
+
+    .info{
+      font-size: 10px;
+      letter-spacing: 0.05em;
+     }
   }
 
 .work {

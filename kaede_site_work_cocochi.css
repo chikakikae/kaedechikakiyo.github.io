@@ -295,6 +295,16 @@ h3 {
   animation-duration: 2s; 
 }
 
+.info{
+  font-size: 11px;
+  font-family: "AUT-60"; 
+  position: relative;
+  text-decoration: none;
+  color: #323232;
+  letter-spacing: 0.07em;
+  line-height:22px;
+ }
+
 
 /*iPad用*/
 @media screen and (min-width: 768px) and (max-width: 1024px){ 
@@ -327,6 +337,10 @@ h3 {
   letter-spacing: 0.07em;
   line-height: 25px;
 }
+
+.info{
+  font-size: 11px;
+ }
 }
 
 @media screen and (max-width: 767px) {
@@ -360,6 +374,11 @@ h3 {
     letter-spacing: 0.1em;
     line-height:18px;
   }
+
+  .info{
+    font-size: 10px;
+    letter-spacing: 0.05em;
+   }
 }
 
 .work {

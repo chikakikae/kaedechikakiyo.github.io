@@ -171,6 +171,7 @@ body {
 main{
   display:flex;
   margin:0 15vw;
+  margin-bottom: 100px;
 }
 
 /*iPad用*/
@@ -245,8 +246,8 @@ h1 {
     left: 0;
     text-decoration: none;
     color: #323232;
-    letter-spacing: 1px;
-    line-height: 24px;
+    letter-spacing: 0.7px;
+    line-height: 22px;
   }
 
 /*iPad用*/
@@ -254,28 +255,21 @@ h1 {
 h1 {
   font-size: 20px;
   top: 25vh;
-  left: 22vw;
+  left: 18vw;
 }
 
 .about {
   font-size: 14px;
   top: 31vh;
-  left: 22vw;
-  right: 20vw;
+  left: 18vw;
+  right: 0;
 }
-
-h2 {
-  font-size: 12px;
-  top: 615px;
-  left: 22vw;
-  right: 16vw;
-} 
 
 .about2{
   font-size: 10px;
-  top: 640px;
-  left: 22vw;
-  right: 16vw;
+  line-height:22px;
+  margin-top: 40px;
+  letter-spacing: 0.7px;
 }
 }
   
@@ -296,7 +290,10 @@ h1 {
   }
 
 .about2{
-  display: none;
+  font-size: 10px;
+  line-height:19px;
+  margin-top: 70px;
+  letter-spacing: 0.7px;
 }
 }
 
@@ -328,7 +325,7 @@ footer {
 /*スマホ用*/
 @media screen and (max-width: 767px) {
   footer {
-    height: 155px;
+    height: 500px;
     display: flex;
     align-items: center;
     position: relative;

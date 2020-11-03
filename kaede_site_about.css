@@ -210,11 +210,12 @@ main{
 }
 
 h1 {
-    font-size: 18px;
-    font-family: "AUT-60"; 
+    font-size: 16px;
+    font-family: "DIN"; 
     position:absolute;
-    top: 30vh;
-    left: 20vw;
+    top: 29vh;
+    left: 22vw;
+    letter-spacing: 0.05em;
     text-decoration: none;
     color: #323232;
     animation-name: fadein;
@@ -225,41 +226,27 @@ h1 {
     font-size: 13px;
     font-family: "AUT-60"; 
     position:absolute;
-    top: 39vh;
-    left: 20vw;
+    top: 37vh;
+    left: 22vw;
+    right: 17vw;
     text-decoration: none;
     color: #323232;
     letter-spacing: 1px;
     line-height: 20px;
     animation-name: fadein;
     animation-duration: 3s;
-    }
-
-h2 {
-    font-size: 14px;
-    font-family: "AUT-130"; 
-    position:absolute;
-    top: 450px;
-    left: 20vw;
-    text-decoration: none;
-    color: #323232;
-    letter-spacing: 0.05em;
-    animation-name: fadein;
-    animation-duration: 3s;
-  } 
+    }  
 
 .about2{
-    font-size: 11px;
+    font-size: 12px;
     font-family: "AUT-60"; 
     position:absolute;
-    top: 490px;
-    left: 20vw;
+    top: 120px;
+    left: 0;
     text-decoration: none;
     color: #323232;
     letter-spacing: 1px;
-    line-height: 20px;
-    animation-name: fadein;
-    animation-duration: 3s;
+    line-height: 24px;
   }
 
 /*iPad用*/
@@ -305,21 +292,11 @@ h1 {
   top: 39vh;
   left: 17vw;
   right: 16vw;
-  line-height: 19px;
+  line-height: 21px;
   }
 
-h2 {
-  font-size: 12px;
-  top: 415px;
-  left: 17vw;
-  right: 16vw;
-} 
-
 .about2{
-  font-size: 10px;
-  top: 440px;
-  left: 17vw;
-  right: 16vw;
+  display: none;
 }
 }
 
@@ -351,7 +328,7 @@ footer {
 /*スマホ用*/
 @media screen and (max-width: 767px) {
   footer {
-    height: 38vh;
+    height: 155px;
     display: flex;
     align-items: center;
     position: relative;

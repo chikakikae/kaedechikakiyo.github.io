@@ -202,7 +202,7 @@ main{
   }
 
   main {
-    margin-top: 25vh;
+    margin-top: 23vh;
   }
 }
 
@@ -215,7 +215,7 @@ main{
 }
 
 body {
-    background-image:url("images/back3.jpg");
+    background-image:url("images/back1.jpg");
   background-size: cover;
 }
 

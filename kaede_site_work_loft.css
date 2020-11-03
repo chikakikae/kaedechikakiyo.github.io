@@ -202,7 +202,7 @@ main{
   }
 
   main {
-    margin-top: 25vh;
+    margin-top: 20vh;
   }
 }
 
@@ -244,6 +244,7 @@ main a{
   float: right;
   animation-name: fadein;
   animation-duration: 2s;
+  letter-spacing: 0.05em;
 }
 
 main a:hover{

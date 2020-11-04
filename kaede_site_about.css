@@ -326,7 +326,7 @@ footer {
 /*スマホ用*/
 @media screen and (max-width: 767px) {
   footer {
-    height: 400px;
+    height: 160px;
     display: flex;
     align-items: center;
     position: relative;

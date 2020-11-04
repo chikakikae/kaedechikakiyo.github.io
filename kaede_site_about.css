@@ -210,24 +210,37 @@ main{
   }
 }
 
-h1 {
-    font-size: 16px;
-    font-family: "DIN"; 
+.name {
+    font-size: 18px;
+    font-family: "AUT-130"; 
+    font-weight: 500;
     position:absolute;
     top: 29vh;
     left: 22vw;
+    padding-right: 200px;
     letter-spacing: 0.05em;
     text-decoration: none;
     color: #323232;
     animation-name: fadein;
     animation-duration: 3s;
     }
+
+    .name span {
+      font-size: 12px;
+      font-family: "AUT-90"; 
+      position:absolute;
+      top:30.5px;
+      left: 0;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      color: #323232;
+      }
   
 .about{
     font-size: 13px;
     font-family: "AUT-60"; 
     position:absolute;
-    top: 37vh;
+    top: 39vh;
     left: 22vw;
     right: 17vw;
     text-decoration: none;
@@ -238,7 +251,7 @@ h1 {
     animation-duration: 3s;
     }  
 
-.about2{
+/* .about2{
     font-size: 12px;
     font-family: "AUT-60"; 
     position:absolute;
@@ -248,7 +261,7 @@ h1 {
     color: #323232;
     letter-spacing: 0.7px;
     line-height: 22px;
-  }
+  } */
 
 /*iPad用*/
 @media screen and (min-width: 768px) and (max-width: 1024px){ 
@@ -264,38 +277,22 @@ h1 {
   left: 18vw;
   right: 0;
 }
-
-.about2{
-  font-size: 10px;
-  line-height:22px;
-  margin-top: 40px;
-  letter-spacing: 0.7px;
-}
 }
   
 /*スマホ用*/
 @media screen and (max-width: 767px) {
-h1 {
-  top: 28vh;
-  left: 17vw;
-  letter-spacing: 0.03em;
-  }
+.name {
+    left: 17vw;
+    }
   
 .about{
   font-size: 12px;
   letter-spacing:0.05em;
-  top: 39vh;
+  top: 41vh;
   left: 17vw;
   right: 16vw;
   line-height: 21px;
   }
-
-.about2{
-  font-size: 10px;
-  line-height:19px;
-  margin-top: 70px;
-  letter-spacing: 0.7px;
-}
 }
 
 

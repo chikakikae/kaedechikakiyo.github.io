@@ -30,6 +30,11 @@
   src: url(font/AUTHENTICSans-60.otf);
 }
 
+@font-face {
+  font-family:"Gen-Semi";
+  src: url(font/GenEiGothicN-SemiBold.otf);
+}
+
 
 header {
   height: 30vh; /*ヘッダーの高さ*/
@@ -188,7 +193,7 @@ main{
   flex-direction: column;
   margin:0 15vw;
   justify-content:space-between;
-  margin-top:50vh;
+  margin-top:48vh;
 }
 
 /*iPad用*/
@@ -232,7 +237,7 @@ main{
     flex-direction: column;
     margin:0 13vw;
     justify-content:space-between;
-    margin-top:72vh;   
+    margin-top:70vh;   
   }
 }
 
@@ -266,9 +271,10 @@ h2 {
   animation-duration: 2s;
   }
 
+
   h3 {
-    font-size: 15px;
-    font-family: "AUT-60"; 
+    font-size: 18px;
+    font-family: "Gen-Semi"; 
     font-weight: 600;
     position:absolute;
     top: 39vh;
@@ -276,9 +282,11 @@ h2 {
     text-decoration: none;
     color: #323232;
     letter-spacing: 0.05em;
+
     animation-name: fadein;
     animation-duration: 2s;
     }
+
 
  .about{
    font-size: 13px;
@@ -406,7 +414,7 @@ h2 {
     padding-bottom: 10px;
     margin-left: 10px;
     line-height:18px;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.5px;
     animation-name: fadein;
     animation-duration: 2s;
 }

@@ -190,7 +190,7 @@ main{
   align-items: center;
   margin:0 16vw;
   justify-content:space-between;
-  margin-top:48vh; 
+  margin-top:40vh; 
 }
 
 /*iPad用*/
@@ -285,7 +285,7 @@ h3 {
   font-size: 13px;
   font-family: "AUT-60"; 
   position:absolute;
-  top: 47vh;
+  top: 42vh;
   left: 16.5vw;
   right: 30vw;
   text-decoration: none;

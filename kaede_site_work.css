@@ -229,7 +229,7 @@ main{
 h1 {
   font-size: 21px;
   font-family: "AUT-130"; 
-  font-weight: 600;
+  /* font-weight: 600; */
   position:absolute;
   top: 30vh;
   left: 16.5vw;
@@ -276,7 +276,7 @@ h2 {
    font-size: 13px;
    font-family: "AUT-60"; 
    position:absolute;
-   top: 47vh;
+   top: 46vh;
    left: 16.5vw;
    right: 30vw;
    text-decoration: none;

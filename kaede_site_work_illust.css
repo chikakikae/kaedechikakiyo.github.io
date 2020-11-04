@@ -175,7 +175,7 @@ main{
     flex-wrap:wrap; /*折り返して配置*/
     margin:0 15vw;
     justify-content:space-between;
-    margin-top:40vh;
+    margin-top:35vh;
   }
 
 /*iPad用*/
@@ -236,7 +236,7 @@ h1 {
   font-size: 13px;
   font-family: "AUT-60"; 
   position:absolute;
-  top: 47vh;
+  top: 42vh;
   left: 16.5vw;
   
   text-decoration: none;

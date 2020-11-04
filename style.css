@@ -29,6 +29,11 @@
     src: url(font/AUTHENTICSans-60.otf);
   }
 
+  @font-face {
+    font-family:"CHU-go";
+    src: url(font/A-OTF-GothicBBBPro-Medium.otf);
+  }
+
   /*ヘッダー*/
   header {
     height: 30vh;
@@ -296,7 +301,6 @@ main{
 
   .hover-caption h2{
     font-size: 22px;
-    font-family: "Shuei";
     letter-spacing: 0.05em;
     line-height: 13px;
   }
@@ -304,7 +308,6 @@ main{
   .hover-caption p{
     text-decoration: none;
     font-size: 16px;
-    font-family: "Shuei";
     color: lightgray;
     letter-spacing: 0.05em;
     padding-top: 8px;
@@ -316,8 +319,8 @@ main{
 @media screen and (max-width: 767px) {
   .work {
     width: 34.5vw;
-    height:83px;
-    margin-bottom:3vh;
+    height: 22vw;
+    margin-bottom:2.5vh;
     margin-left:0.5vh;
     z-index: inherit 2;
     

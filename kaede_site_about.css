@@ -212,7 +212,7 @@ main{
 
 .name {
     font-size: 18px;
-    font-family: "AUT-130"; 
+    font-family: "AUT-60"; 
     font-weight: 500;
     position:absolute;
     top: 29vh;
@@ -283,6 +283,7 @@ h1 {
 @media screen and (max-width: 767px) {
 .name {
     left: 17vw;
+    font-family: "AUT-60"; 
     }
   
 .about{
@@ -290,7 +291,7 @@ h1 {
   letter-spacing:0.05em;
   top: 41vh;
   left: 17vw;
-  right: 16vw;
+  right: 20vw;
   line-height: 21px;
   }
 }

@@ -211,8 +211,8 @@ main{
 }
 
 .name {
-    font-size: 18px;
-    font-family: "AUT-60"; 
+    font-size: 20px;
+    font-family: "AUT-90"; 
     font-weight: 500;
     position:absolute;
     top: 29vh;
@@ -226,10 +226,10 @@ main{
     }
 
     .name span {
-      font-size: 12px;
+      font-size: 13px;
       font-family: "AUT-90"; 
       position:absolute;
-      top:30.5px;
+      top:33px;
       left: 0;
       letter-spacing: 0.05em;
       text-decoration: none;
@@ -242,11 +242,11 @@ main{
     position:absolute;
     top: 39vh;
     left: 22vw;
-    right: 17vw;
+    right: 25vw;
     text-decoration: none;
     color: #323232;
     letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 21px;
     animation-name: fadein;
     animation-duration: 3s;
     }  
@@ -283,8 +283,10 @@ h1 {
 @media screen and (max-width: 767px) {
 .name {
     left: 17vw;
-    font-family: "AUT-60"; 
     }
+.name span {
+  top:31px;
+}
   
 .about{
   font-size: 12px;

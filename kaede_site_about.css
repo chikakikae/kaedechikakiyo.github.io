@@ -286,12 +286,13 @@ h1 {
     }
 .name span {
   top:31px;
+  font-size: 12px;
 }
   
 .about{
   font-size: 12px;
   letter-spacing:0.05em;
-  top: 41vh;
+  top: 42vh;
   left: 17vw;
   right: 20vw;
   line-height: 21px;
